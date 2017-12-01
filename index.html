@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <h2>Trivia Time</h2>
+
+    <div id="timer">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3"></h1>
+                <p class="lead">
+                    <br> Please attempt to select the corret answers!
+                    <br> Only 30 seconds before your time is up so chop chop!</p>
+            </div>
+        </div>
+    </div>
+    <!-- the form was copy and pasted from stack overflow -->
+    <div id="question1">
+        <h2>JavaScript is ______ Language.</h2>
+        <br>
+        <form>
+            <input type="radio" name="choice" value="Scripting"> Scripting
+            <br>
+            <input type="radio" name="choice" value="Programming"> Programming
+            <br>
+            <input type="radio" name="choice" value="Application"> Application
+            <br>
+            <input type="radio" name="choice" value="None of These"> None of These
+        </form>
+        <button>Submit Answer</button>
+    </div>
+    <div id="question2">
+        <h2>What does HTML stand for?</h2>
+        <br>
+        <form>
+            <input type="radio" name="choice" value="Hard Text Meaningless Language"> Hard Text Meaningless Language
+            <br>
+            <input type="radio" name="choice" value="High Text Markup Language"> High Text Markup Language
+            <br>
+            <input type="radio" name="choice" value="Hyper Tabular Markup Language"> Hyper Tabular Markup Language
+            <br>
+            <input type="radio" name="choice" value="Hyper Text Markup Language"> Hyper Text Markup Language
+        </form>
+        <button>Submit Answer</button>
+    </div>
+    <div id="question3">
+        <h2>Which tag creates a number/order list?</h2>
+        <br>
+        <form>
+            <input type="radio" name="choice" value="UL">UL
+            <br>
+            <input type="radio" name="choice" value="OL">OL
+            <br>
+            <input type="radio" name="choice" value="OT">OT
+            <br>
+            <input type="radio" name="choice" value="None of These"> None of These
+        </form>
+        <button>Submit Answer</button>
+    </div>
+
+    <script src="assets/javascript/app.js" type="text/javascript">
+    </script>
+</body>
+
+</html>
